@@ -12,7 +12,7 @@ let Search = () => {
       d.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setSearchResults(results);
-  }, [searchQuery]);
+  }, [searchQuery , data]);
  
 
   let getAllData = () => {
