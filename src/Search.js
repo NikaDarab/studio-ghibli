@@ -7,12 +7,11 @@ let Search = () => {
   const handleChange = (e) => setSearchQuery(e.target.value);
   
   useEffect(() => {
-    getAllData()
+   !data.length && getAllData()
     const results = data.filter(d =>
       d.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setSearchResults(results);
-    console.log(data)
   }, [searchQuery]);
  
 
