@@ -6,11 +6,9 @@ import "animate.css";
 
 const Main = () => {
   return (
-    <>
-      <SearchBar/>
-      <div className="container main"> 
+    <div className="main">
+    <SearchBar/>
     </div>
-    </>
    
     
   );
