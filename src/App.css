@@ -5,14 +5,17 @@
 }
 
 .main {
-  background-image: url("./alt-img.webp");
-  background-size: cover;
+   
+  background-image: url("./main-logo.png");
+  background-size: contain;
   /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   height: 915px;
   opacity: 0.8;
+  background-color: rgb(25, 157, 207)
+ 
 }
 
 .header {

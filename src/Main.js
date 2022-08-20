@@ -9,12 +9,6 @@ const Main = () => {
     <>
       <SearchBar/>
       <div className="container main"> 
-     <div>
-      {/* <button className="display-all-button animate__animated animate__bounceInLeft">
-        Display All
-      </button> */}
-     
-    </div>
     </div>
     </>
    
