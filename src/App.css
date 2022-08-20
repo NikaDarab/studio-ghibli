@@ -14,12 +14,21 @@
   background-attachment: fixed;
   height: 915px;
   opacity: 0.8;
-  background-color: rgb(25, 157, 207)
+  background-color: rgb(25, 157, 207);
  
 }
 
 .header {
   background-color: rgb(5, 14, 26);
+}
+
+.logo{ 
+  background: url("./logo.jpeg") no-repeat; 
+  width: 100px; 
+  height: 100px; 
+  display: block; 
+  text-indent: -9999px;
+  float:left;
 }
  
 .display-all-button {
