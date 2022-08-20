@@ -6,7 +6,7 @@
 
 .main {
    
-  background-image: url("./main-logo.png");
+  background-image: url("./resized.png");
   background-size: contain;
   /* <------ */
   background-repeat: no-repeat;
