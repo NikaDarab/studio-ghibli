@@ -3,7 +3,10 @@ import { NavLink } from "react-router-dom";
 let Header = () => {
   return (
     <NavLink className="navbar-item" activeClassName="is-active" to="/" exact>
-      Home
+        <div className="header">
+          {" "} 
+        </div>
+
     </NavLink>
   );
 };
