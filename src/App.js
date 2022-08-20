@@ -1,15 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Search from "./Search";
-import Header from "./Header";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import Main from "./Main";
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+
 function App() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    //get all the data at once
+    fetch("https://ghibliapi.herokuapp.com/films")
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
+  let getAllData = () => {
+    fetch(`https://ghibliapi.herokuapp.com/films`)
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Header} />
-        <Route exact path="/search" component={Search} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Main/>} exact/>
+        <Route path="/search" element={<Search/>} />
+      </Routes>
     </BrowserRouter>
   );
 }
