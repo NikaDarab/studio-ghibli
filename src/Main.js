@@ -1,21 +1,25 @@
 import React from "react";
 import { Routes, Route, useNavigate, NavLink, Link } from "react-router-dom";
+import SearchBar from "./SearchBar";
 import "animate.css";
 
-const Header = () => {
+
+const Main = () => {
   return (
-    <div className="container main">
+    <>
+      <SearchBar/>
+      <div className="container main"> 
+     <div>
       {/* <button className="display-all-button animate__animated animate__bounceInLeft">
         Display All
       </button> */}
-      <div className="browse-button animate__animated animate__bounceInRight">
-        <div className="search-container">
-          <input type="text" placeholder="Search..." />
-          <div className="search" />
-        </div>
-      </div>
+     
     </div>
+    </div>
+    </>
+   
+    
   );
 };
 
-export default Header;
+export default Main;
