@@ -180,7 +180,9 @@ input.search:placeholder {
 }
 
  .film-card {
-  
+  /* responsive width */
+  width: 100%;
+  max-width: 1000px;
   height: 450px;
   margin: 10px;
   background-color: rgb(233, 235, 236);
