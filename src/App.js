@@ -18,12 +18,13 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Search />} exact />
-        {/* <Route path="/search" element={<Search/>} /> */}
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Search />} exact />
+    //     {/* <Route path="/search" element={<Search/>} /> */}
+    //   </Routes>
+    // </BrowserRouter>
+    <Search/>
   );
 }
 
