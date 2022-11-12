@@ -193,7 +193,8 @@ input.search:placeholder {
 
 .film-card__title {
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
+  /* responsive font */
+  font-size: 1.5rem;
   font-weight: bolder;
   color: rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
@@ -204,7 +205,8 @@ input.search:placeholder {
 .film-card__description {
  /* font family for anime things */
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+   /* responsive font */
+  font-size: 1rem;
   font-weight: bolder;
   color:rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
@@ -214,7 +216,7 @@ input.search:placeholder {
 
 .film-card__director {
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bolder;
   color: rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
@@ -224,7 +226,7 @@ input.search:placeholder {
 
 .film-card__producer {
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bolder;
   color: rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
@@ -234,7 +236,7 @@ input.search:placeholder {
 
 .film-card__release-date {
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bolder;
   color: rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
@@ -244,7 +246,7 @@ input.search:placeholder {
 
 .film-card__rt-score {
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bolder;
   color: rgb(251, 251, 251);
   text-shadow: 0 0 10px rgb(161, 205, 253);
